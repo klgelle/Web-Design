@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>More Positioning - Big Sur</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+
+        /* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed,
+        figure, figcaption, footer, header, hgroup,
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 10px;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure,
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+
+        body {
+            line-height: 1;
+        }
+
+        ol, ul {
+            list-style: none;
+        }
+
+        blockquote, q {
+            quotes: none;
+        }
+
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        body {
+            background-color: goldenrod;
+        }
+
+        .container {
+            width: 1180px;
+            height: 800px;
+            background-color: white;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        header {
+            width: 1160px;
+            height: 100px;
+            background-color: aliceblue;
+            margin: 0 auto;
+            font-family: Beauty, Arial, sans-serif;
+            font-size: 36px;
+            text-align: center;
+            padding-top: 30px;
+        }
+
+        nav {
+            width: 180px;
+            background-color: goldenrod;
+            margin-left: 10px;
+            positon: relative;
+            margin-top: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-radius: 15px;
+            float: left;
+
+        }
+
+        button {
+            width: 80px;
+            height: 80px;
+            font-size: 15px;
+            font-family: Biko;
+            background-color: peachpuff;
+            display: block;
+            margin: 20px auto;
+            border-radius: 40px;
+        }
+
+        section {
+            width: 900px;
+            height: 500px;
+            background-color: darkkhaki;
+            border-radius: 25px;
+            float: right;
+            margin-top: 20px;
+            margin-right: 45px;
+            position: relative;
+        }
+        h2 {
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-family: Biko;
+            font-kerning: auto;
+        }
+
+        p {
+            padding: 0 20px;
+            color: white;
+            font-family: Biko;
+
+        }
+
+
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <header>Big Sur</header>
+
+    <nav>
+        <button>HISTORY</button>
+        <button>CULTURE</button>
+        <button>PARKS</button>
+        <button>PHOTOS</button>
+    </nav>
+
+    <section>
+        <h2>HISTORY</h2>
+        <p>Lorem ipsum dolor sit amet, usu erat modus et. Nonumes recusabo definitionem vis ne, has et quot dictas
+            voluptua. No eam imperdiet dissentiet, mel no tractatos adipiscing, nec ut etiam viris audiam. Duo in diam
+            fuisset, mea et ludus laboramus, eu qui dolor debitis.
+
+            Natum imperdiet ad has, vel laudem invidunt id. Vel ut suscipit lobortis deseruisse, in putant numquam eum.
+            Id affert verear appareat duo. Ornatus feugait ex usu, et cibo aliquam vis. Accumsan delectus facilisi no
+            per. No nec theophrastus definitiones, ad usu antiopam evertitur consectetuer.
+        </p>
+        <br>
+        <p>
+            Vel errem clita erroribus et, stet habeo cetero ea vel. Dicunt option numquam ex ius, cu minim saperet per.
+            Te sea aliquip ullamcorper, eum et animal vivendo. Causae molestie constituam ad nec, ex usu reque volutpat,
+            vix ignota bonorum legendos an.
+
+            Adhuc graeci salutatus eam ea, everti eleifend tincidunt id ius, ne qui case postea persius. Ea ubique
+            alienum accusam vel, ubique phaedrum forensibus et vel. No nec graeci theophrastus, ea patrioque
+            concludaturque sea, duo habemus persequeris ex. Duo ne luptatum assentior, ea his oratio noluisse. Duo at
+            malis simul iuvaret, cu has quaestio corrumpit. Vide illum aperiam pro id.
+
+            Nam ridens sanctus suscipiantur an. Corpora intellegam te vim. At eirmod minimum per, ut mei partiendo
+            definitiones. Eu est vide iisque.
+        </p>
+    </section>
+</div> <!-- end of container -->
+</body>
+</html>
