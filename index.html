@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Positioning</title>
+
+    <!--<link rel="stylesheet" href="solitare.css"/>-->
+    <style>
+
+        body {
+            background-image: url("images/gradient.jpg");
+        }
+
+        .greentexture {
+            width: 500px;
+            height: 500px;
+            background-image: url("images/felt2.jpg");
+            position: relative;
+        }
+
+        .playingcard1 {
+            position: absolute;
+            top: 10px;
+            left: 50px;
+            z-index: 5;
+        }
+
+        .playingcard2 {
+            position: absolute;
+            top: 20px;
+            left: 60px;
+            z-index: 10;
+        }
+
+        .playingcard3 {
+            position: absolute;
+            top: 30px;
+            left: 70px;
+            z-index: 15;
+        }
+
+        .playingcard4 {
+            position: absolute;
+            top: 40px;
+            left: 80px;
+            z-index: 20;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="greentexture">
+    <img src="images/jackclubs.png" height="100" width="64" class="playingcard1" alt="jack of clubs"/>
+
+    <img src="images/kingspades.png" height="100" width="64" class="playingcard2" alt="king of spades"/>
+
+    <img src="images/queenhearts.png" height="100" width="64" class="playingcard3" alt="queen of hearts"/>
+
+    <img src="images/tendiamonds.png" height="100" width="64" class="playingcard4" alt="ten of diamonds"/>
+</div>
+
+</body>
+</html>

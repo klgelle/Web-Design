@@ -1,0 +1,33 @@
+/* solitare.css */
+.greentexture {
+    position: relative;
+    z-index: 1;
+}
+
+.playingcard1 {
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    z-index: 5;
+}
+
+.playingcard2 {
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    z-index: 10;
+}
+
+.playingcard3 {
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    z-index: 15;
+}
+
+.playingcard4 {
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    z-index: 20;
+}
