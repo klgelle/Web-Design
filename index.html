@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>One Page Scroll</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Biko, Arial;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: gray;
+        }
+
+        nav {
+            background-color: greenyellow;
+            height: 150px;
+            width: auto;
+            margin: 0 auto;
+        }
+
+        .wrapper {
+            width: 1180px;
+            height: 4500px;
+            background-color: lightgray;
+            position: relative;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #section-01, #section-03, #section-05 {
+            width: 1160px;
+            height: 800px;
+            background-color: dimgray;
+            color: greenyellow;
+            margin: 0 auto
+        }
+
+        #section-02, #section-04 {
+            width: 1160px;
+            height: 800px;
+            background-color: darkgray;
+            color: black;
+            margin: 0 auto;
+        }
+
+        p#nav-section-01, p#nav-section-02, p#nav-section-03, p#nav-section-04, p#nav-section-05 {
+            display: inline;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 0 25px;
+            line-height: 150px;
+        }
+
+
+        a:link {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: #41e7ff;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:active {
+            text-decoration: none;
+            color: white;
+        }
+        a:hover {
+            cursor: pointer;
+            color: #41e7ff;
+        }
+        .footer {
+            position: absolute;
+            bottom: 25px;
+            left: 50px;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div id="top"></div>
+    <nav>
+        <a href="#section-01"><p id="nav-section-01">SECTION ONE</p></a>
+        <a href="#section-02"><p id="nav-section-02">SECTION TWO</p></a>
+        <a href="#section-03"><p id="nav-section-03">SECTION THREE</p></a>
+        <a href="#section-04"><p id="nav-section-04">SECTION FOUR</p></a>
+        <a href="#section-05"><p id="nav-section-05">SECTION FIVE</p></a>
+    </nav>
+
+    <section id="section-01">Section One</section>
+    <section id="section-02">Section Two</section>
+    <section id="section-03">Section Three</section>
+    <section id="section-04">Section Four</section>
+    <section id="section-05">Section Five</section>
+
+    <a href="#top"><p class="footer">BACK TO TOP</p></a>
+</div> <!-- end of wrapper -->
+</body>
+</html>
