@@ -1,0 +1,302 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0px;
+}
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+.navlink {
+    margin: 0 auto;
+    list-style: none;
+    width: 1200px;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 200px;
+    line-height: 25px;
+    text-transform: lowercase;
+    padding-top: auto;
+    vertical-align: center;
+    position: fixed;
+}
+
+.logocontainer {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navlink-right {
+    display: inline-block;
+    margin-right: 100px;
+    vertical-align: center;
+    text-align: center;
+}
+
+.navlink-left {
+    display: inline-block;
+    margin-left: 100px;
+    vertical-align: center;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    margin-right: 65px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: gray(20%);
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: #ff4e00;
+}
+
+slider {
+    display: block;
+    width: 1180px;
+    height: 75%;
+    background-color: #1f1f1f;
+    overflow: hidden;
+    position: absolute;
+}
+
+slider > * {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #1f1f1f;
+    animation: slide 20s infinite;
+    overflow: hidden;
+}
+
+slide:nth-child(1) {
+    left: 0%;
+    animation-delay: -1s;
+    background-image: url(images/appetizer-asian-food-chili-1234535.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+slide:nth-child(2) {
+    animation-delay: 2s;
+    background-image: url(images/appetizer-brunch-close-up-1095550.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+slide:nth-child(3) {
+    animation-delay: 5s;
+    background-image: url(images/asian-food-bowl-chopsticks-628776.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+slide:nth-child(4) {
+    left: 0%;
+    animation-delay: 8s;
+    background-image: url(images/asian-food-chinese-food-chopsticks-218769.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes slide {
+    0% {
+        left: 100%;
+        width: 100%;
+    }
+    5% {
+        left: 0%;
+    }
+    25% {
+        left: 0%;
+    }
+    30% {
+        left: -100%;
+        width: 100%;
+    }
+    30.0001% {
+        left: -100%;
+        width: 0%;
+    }
+    100% {
+        left: 100%;
+        width: 0%;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.wrapper {
+    width: 1200px;
+    height: auto;
+    position: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div {
+    text-align: justify;
+    font-size: 24px;
+    margin: auto;
+}
+
+#section-01 {
+    width: 1160px;
+    height: 600px;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+#section-02 {
+    width: 1160px;
+    height: 10px;
+   padding-top: 800px;
+    text-align: right;
+    padding-right: 400px;
+    font-size: 16pt;
+}
+
+#section-03 {
+    width: 1160px;
+    height: 10px;
+    margin: 0 auto;
+}
+
+#section-04 {
+    width: 1160px;
+    height: 10px;
+    margin-left: 200px;
+}
+ul {
+    text-align: left;
+    list-style-type: none;
+    line-height: 65px;
+    padding-left: 150px;
+    vertical-align: middle;
+}
+.imagemenu {
+    float: right;
+    vertical-align: middle;
+    padding-right: 100px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: left;
+    padding-left: 148px;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.location {
+    text-align: right;
+    vertical-align: middle;
+    padding-top: 270px;
+}
+.address {
+    text-align: right;
+    vertical-align: middle;
+    line-height: 40px;
+
+}
+
+.map {
+    overflow: hidden;
+    background: none;
+    height: 500px;
+    width: 600px;
+    float: right;
+    margin-left: 40px;
+    margin-right: 100px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.footer {
+    position: center;
+    top: auto;
+    bottom: 25px;
+    left: 50px;
+    text-align: center;
+    color: black;
+}
+.description {
+    text-align: left;
+    vertical-align: middle;
+    line-height: 40px;
+    font-size: 20px;
+    padding-right: 30px;
+    margin-bottom: 80px;
+}
+
+.ourstory {
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 190px;
+    font-size: 35px;
+}
+
+.chefimg {
+    float: left;
+    vertical-align: middle;
+    padding-right: 50px;
+    margin: 0 auto;
+}
+.hours {
+    text-align: left;
+    vertical-align: middle;
+    line-height: 40px;
+    font-size: 20px;
+    padding-right: 30px;
+}
+.handsimg {
+    float: left;
+    vertical-align: middle;
+    padding-right: 50px;
+    margin: 0 auto;
+}
+
+.phone {
+    text-align: left;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.contact {
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 100px;
+    font-size: 35px;
+}
+
+.signature {
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.social1 {
+    float: right;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: 30px;
+}
